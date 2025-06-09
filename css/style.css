@@ -23,7 +23,7 @@ header {
 }
 
 .border {
-  border: 1px dotted black;
+  border: 2px dotted black;
 }
 
 /*Main*/
@@ -38,6 +38,11 @@ header {
 .container-sm {
   background-color: #EF82ED;
   width: 31%;
+}
+
+.container-bg {
+  background-color: #218b21;
+  width: 37%;
 }
 
 .w-300 {
@@ -75,4 +80,42 @@ header {
   background-color: #d3d3d3;
   display: flex;
   justify-content: center;
+}
+
+.g-500 {
+  height: 500px;
+  padding: 50px 0;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+}
+
+.n-300 {
+  height: 300px;
+  padding: 50px 0;
+  background-color: #23272a;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-marino {
+  background-color: #20b3aa;
+}
+
+.bg-pesca {
+  background-color: #f08180;
+}
+
+.mp {
+  height: 200px;
+  width: 150px;
+}
+
+.mm {
+  height: 200px;
+  width: 120px;
+}
+
+.border-m {
+  border: 1px dotted white;
 }
