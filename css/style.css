@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1200;
+  margin: 0 auto;
+  display: flex;
+}
+
+/*Intestazione*/
+.int {
+  height: 50px;
+  background-color: #add8e7;
+}
+
+.bg-orange {
+  background-color: #daa41e;
+}
