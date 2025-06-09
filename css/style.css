@@ -8,7 +8,6 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  text-align: center;
 }
 
 /*Intestazione*/
@@ -16,6 +15,7 @@ header {
   height: 50px;
   background-color: #add8e7;
   padding: 15px 0;
+  text-align: center;
 }
 
 .col-20 {
@@ -23,5 +23,48 @@ header {
 }
 
 .border {
-  border: 1px solid black;
+  border: 1px dotted black;
+}
+
+/*Main*/
+.b-300 {
+  height: 300px;
+  padding: 50px 0;
+  background-color: #00018B;
+  display: flex;
+  justify-content: center;
+}
+
+.container-sm {
+  background-color: #EF82ED;
+  width: 35%;
+  height: 100%;
+}
+
+.w-300 {
+  height: 300px;
+  padding: 50px 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-pink {
+  background-color: #ffc0ca;
+}
+
+.bg-sky {
+  background-color: #1e90ff;
+}
+
+.left .right {
+  height: 200px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
 }
