@@ -51,6 +51,7 @@ header {
 
 .bg-pink {
   background-color: #ffc0ca;
+
 }
 
 .bg-sky {
@@ -66,5 +67,13 @@ header {
 }
 
 .right {
-  width: 75%;
+  width: 50%;
+}
+
+.g-300 {
+  height: 300px;
+  padding: 50px 0;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
 }
