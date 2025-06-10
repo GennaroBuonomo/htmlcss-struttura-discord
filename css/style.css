@@ -4,118 +4,124 @@
   box-sizing: border-box;
 }
 
+/*generals*/
+header {
+  background-color: lightblue;
+  padding: 10px 0px;
+}
+
+footer {
+  background-color: rgb(50, 50, 50);
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.top-footer {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+.bottom-foter {
+  padding-top: 20px;
+}
+
+/*layout class*/
 .container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
 }
 
-/*Intestazione*/
-header {
-  height: 50px;
-  background-color: #add8e7;
-  padding: 15px 0;
-  text-align: center;
+.container-sm {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .col-20 {
-  background-color: #daa41e;
+  width: 20%;
 }
 
-.border {
-  border: 2px dotted black;
+.col-40 {
+  width: 40%;
+  height: 500px;
 }
 
-/*Main*/
-.b-300 {
-  height: 300px;
-  padding: 60px 0;
-  background-color: #00018B;
-  display: flex;
-  justify-content: center;
+.col-60 {
+  width: 60%;
 }
 
-.container-sm {
-  background-color: #EF82ED;
-  width: 31%;
+.col-15 {
+  width: 15%;
+  height: 500px;
 }
 
-.container-bg {
-  background-color: #218b21;
-  width: 37%;
+.col-100 {
+  width: 100%;
+  height: 500px;
 }
 
-.w-300 {
-  height: 300px;
-  padding: 50px 0;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
+/*utility classes*/
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-cyan {
+  background-color: cyan;
 }
 
 .bg-pink {
-  background-color: #ffc0ca;
-
+  background-color: pink;
 }
 
-.bg-sky {
-  background-color: #1e90ff;
+.bg-gray {
+  background-color: gray;
 }
 
-.left .right {
-  height: 200px;
+.bg-green {
+  background-color: green;
 }
 
-.left {
-  width: 12%;
+.border-black {
+  border: 1px solid black;
 }
 
-.right {
-  width: 25%;
+.p-20 {
+  padding: 20px;
 }
 
-.g-300 {
-  height: 300px;
-  padding: 50px 0;
-  background-color: #d3d3d3;
+.py-20 {
+  padding: 20px 0;
+}
+
+.my-50 {
+  margin: 50px auto;
+}
+
+/*content classes*/
+ul {
+  list-style-type: none;
+}
+
+header ul {
   display: flex;
-  justify-content: center;
+  justify-content: center
 }
 
-.g-500 {
-  height: 500px;
-  padding: 50px 0;
-  background-color: #d3d3d3;
-  display: flex;
-  justify-content: center;
+header ul li {
+  margin: 0px 15px;
 }
 
-.n-300 {
-  height: 300px;
-  padding: 50px 0;
-  background-color: #23272a;
-  display: flex;
-  justify-content: center;
-}
-
-.bg-marino {
-  background-color: #20b3aa;
-}
-
-.bg-pesca {
-  background-color: #f08180;
-}
-
-.mp {
-  height: 200px;
-  width: 150px;
-}
-
-.mm {
-  height: 200px;
-  width: 120px;
-}
-
-.border-m {
-  border: 1px dotted white;
+.text-right {
+  text-align: right;
 }
